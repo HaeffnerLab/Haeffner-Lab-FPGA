@@ -1,0 +1,112 @@
+# photon.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Tue Feb 26 16:36:04 2013
+#The following constraints were newly added
+NET "logic_out<6>" LOC = G20;
+NET "dds_logic_data_out<6>" LOC = A7;
+NET "led<5>" LOC = AB16;
+NET "hi_in<4>" LOC = AA4;
+NET "logic_out<7>" LOC = F21;
+NET "dds_logic_data_out<7>" LOC = B10;
+NET "led<6>" LOC = AA10;
+NET "hi_in<5>" LOC = AB4;
+NET "logic_out<8>" LOC = K21;
+NET "dds_logic_data_out<8>" LOC = C9;
+NET "led<7>" LOC = AB10;
+NET "hi_in<6>" LOC = Y3;
+NET "logic_out<9>" LOC = H22;
+NET "dds_logic_data_out<9>" LOC = A10;
+NET "hi_in<7>" LOC = AB3;
+NET "hi_muxsel" LOC = AA22;
+NET "hi_aa" LOC = W11;
+NET "clk1" LOC = AB13;
+NET "hi_inout<10>" LOC = W4;
+NET "hi_out<0>" LOC = Y19;
+NET "logic_in<0>" LOC = M16;
+NET "pmt_input" LOC = M20;
+NET "hi_inout<11>" LOC = AB6;
+NET "dds_logic_step_to_next_value" LOC = A14;
+NET "logic_in<1>" LOC = J19;
+NET "hi_out<1>" LOC = AA8;
+NET "logic_out<10>" LOC = H21;
+NET "hi_inout<12>" LOC = AA6;
+NET "logic_in<2>" LOC = H19;
+NET "logic_out<11>" LOC = N22;
+NET "hi_inout<13>" LOC = U13;
+NET "logic_in<3>" LOC = H20;
+NET "logic_out<12>" LOC = M22;
+NET "hi_inout<14>" LOC = U14;
+NET "logic_out<13>" LOC = N20;
+NET "hi_inout<15>" LOC = AA20;
+NET "logic_out<14>" LOC = M21;
+NET "dds_logic_reset_dds_chip" LOC = C17;
+NET "logic_out<20>" LOC = T22;
+NET "logic_out<15>" LOC = R22;
+NET "dds_logic_data_out<10>" LOC = A9;
+NET "dds_logic_fifo_rd_en" LOC = K18;
+NET "i2c_sda" LOC = AB9;
+NET "logic_out<16>" LOC = P22;
+NET "logic_out<21>" LOC = U20;
+NET "dds_logic_data_out<11>" LOC = C13;
+NET "logic_out<22>" LOC = T21;
+NET "logic_out<17>" LOC = R20;
+NET "i2c_scl" LOC = Y9;
+NET "dds_logic_data_out<12>" LOC = B12;
+NET "logic_out<23>" LOC = V22;
+NET "logic_out<18>" LOC = P21;
+NET "dds_logic_data_out<13>" LOC = A13;
+NET "logic_out<24>" LOC = K17;
+NET "logic_out<19>" LOC = U22;
+NET "dds_logic_data_out<14>" LOC = A12;
+NET "logic_out<30>" LOC = L22;
+NET "logic_out<25>" LOC = F19;
+NET "dds_logic_data_out<15>" LOC = C15;
+NET "logic_out<31>" LOC = L19;
+NET "logic_out<26>" LOC = K22;
+NET "sec_pmt_input" LOC = L20;
+NET "logic_out<27>" LOC = L15;
+NET "hi_inout<0>" LOC = AB12;
+NET "dds_logic_ram_reset" LOC = A15;
+NET "logic_out<28>" LOC = H18;
+NET "hi_inout<1>" LOC = AA12;
+NET "logic_out<29>" LOC = J16;
+NET "hi_inout<2>" LOC = Y13;
+NET "hi_inout<3>" LOC = AB18;
+NET "hi_inout<4>" LOC = AA18;
+NET "hi_inout<5>" LOC = V15;
+NET "dds_logic_address<0>" LOC = B16;
+NET "hi_inout<6>" LOC = AB2;
+NET "dds_logic_address<1>" LOC = A17;
+NET "hi_inout<7>" LOC = AA2;
+NET "dds_logic_address<2>" LOC = A16;
+NET "dds_logic_fifo_empty" LOC = B14;
+NET "hi_inout<8>" LOC = Y7;
+NET "hi_inout<9>" LOC = Y4;
+NET "logic_out<0>" LOC = E22;
+NET "dds_logic_data_out<0>" LOC = B6;
+NET "logic_out<1>" LOC = D22;
+NET "dds_logic_data_out<1>" LOC = A4;
+NET "led<0>" LOC = Y17;
+NET "logic_out<2>" LOC = E20;
+NET "dds_logic_data_out<2>" LOC = A6;
+NET "led<1>" LOC = AB17;
+NET "hi_in<0>" LOC = Y12;
+NET "logic_out<3>" LOC = D21;
+NET "dds_logic_data_out<3>" LOC = B8;
+NET "led<2>" LOC = AA14;
+NET "hi_in<1>" LOC = AB20;
+NET "logic_out<4>" LOC = G22;
+NET "dds_logic_data_out<4>" LOC = C7;
+NET "dds_logic_fifo_rd_clk" LOC = D11;
+NET "led<3>" LOC = AB14;
+NET "hi_in<2>" LOC = AB7;
+NET "logic_out<5>" LOC = F22;
+NET "dds_logic_data_out<5>" LOC = A8;
+NET "led<4>" LOC = AA16;
+NET "hi_in<3>" LOC = AB8;

@@ -1,0 +1,16 @@
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon\photon.ngc 1366323293
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/dds_fifo.ngc 1357514668
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okWireIn.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okTriggerIn.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okWireOut.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okBTPipeIn.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okBTPipeOut.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/pulse_fifo.ngc 1357514676
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/fifo_photon.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/normal_pmt_fifo.ngc 1357514669
+ipcore_dir/sec_normal_pmt_fifo.ngc 1357514678
+ipcore_dir/readout_count_fifo.ngc 1357514678
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/pulser_ram.ngc 1357514676
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/okCoreHarness.ngc 1357514669
+Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon/TFIFO64x8a_64x8b.ngc 1357514676
+OK

@@ -1,0 +1,22 @@
+
+****** PlanAhead v14.4 (64-bit)
+  **** Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in 30 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/pa.fromNetlist.tcl}
+# create_project -name photon -dir "C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1" -part xc6slx45fgg484-2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 424.297 ; gain = 59.867
+INFO: [Common 17-344] 'create_project' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri May 31 20:41:55 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

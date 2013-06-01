@@ -12,13 +12,13 @@
          <ClosedNode>/photon - arch C:|Users|lattice|Hong_DB|Dropbox|WORK|VHDL|XEM6010|Photon_sd_ram_2012_06_20|Photon_sd_ram_2012_05_10|photon|photon.vhd/okHI - okHost - archHost</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xem6010.ucf (C:/Users/lattice/Desktop/LabRAD/lattice/FPGA_firmware/Pulser_differential_bus_729_2012_11_13/photon/xem6010.ucf)</SelectedItem>
+         <SelectedItem>xem6010.ucf (C:/Users/lattice/Documents/FPGA/Pulser_differential_bus_729_2012_11_13/photon/xem6010.ucf)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >27</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >30</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001df000000020000000000000000000000000200000064ffffffff000000810000000300000002000001df0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>xem6010.ucf (C:/Users/lattice/Desktop/LabRAD/lattice/FPGA_firmware/Pulser_differential_bus_729_2012_11_13/photon/xem6010.ucf)</CurrentItem>
+      <CurrentItem>xem6010.ucf (C:/Users/lattice/Documents/FPGA/Pulser_differential_bus_729_2012_11_13/photon/xem6010.ucf)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -72,7 +72,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ca000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ca0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -85,7 +85,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001db000000010000000100000000000000000000000064ffffffff000000810000000000000001000001db0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>

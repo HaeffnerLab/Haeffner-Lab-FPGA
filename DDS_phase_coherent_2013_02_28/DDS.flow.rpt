@@ -1,5 +1,5 @@
 Flow report for DDS
-Sun Mar 03 16:52:19 2013
+Fri May 31 10:21:30 2013
 Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Flow Summary                                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Flow Status                        ; Successful - Sun Mar 03 16:52:15 2013         ;
+; Flow Status                        ; Successful - Fri May 31 10:21:24 2013         ;
 ; Quartus II 32-bit Version          ; 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; DDS                                           ;
 ; Top-level Entity Name              ; dds                                           ;
@@ -62,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/03/2013 16:51:57 ;
+; Start date & time ; 05/31/2013 10:20:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DDS                 ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+------------------------------+---------------+----------------+------------+
 ; Assignment Name                     ; Value                        ; Default Value ; Entity Name    ; Section Id ;
 +-------------------------------------+------------------------------+---------------+----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 158512924265.136235831705940 ; --            ; --             ; --         ;
+; COMPILER_SIGNATURE_ID               ; 158512924265.137002084205204 ; --            ; --             ; --         ;
 ; IP_TOOL_NAME                        ; ALTPLL                       ; --            ; --             ; --         ;
 ; IP_TOOL_NAME                        ; RAM: 2-PORT                  ; --            ; --             ; --         ;
 ; IP_TOOL_VERSION                     ; 11.1                         ; --            ; --             ; --         ;
@@ -97,11 +97,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 393 MB              ; 00:00:05                           ;
-; Fitter                    ; 00:00:09     ; 2.1                     ; 440 MB              ; 00:00:11                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 347 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 363 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:20                           ;
+; Analysis & Synthesis      ; 00:00:15     ; 1.0                     ; 395 MB              ; 00:00:06                           ;
+; Fitter                    ; 00:00:17     ; 1.7                     ; 454 MB              ; 00:00:12                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 348 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 342 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:38     ; --                      ; --                  ; 00:00:23                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

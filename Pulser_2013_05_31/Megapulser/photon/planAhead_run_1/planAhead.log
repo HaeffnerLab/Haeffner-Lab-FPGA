@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 31 20:40:55 2013
+# Process ID: 3020
+# Log file: C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in 30 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/pa.fromNetlist.tcl}
+# create_project -name photon -dir "C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1" -part xc6slx45fgg484-2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 424.297 ; gain = 59.867
+INFO: [Common 17-344] 'create_project' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon\planAhead_pid3020.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri May 31 20:41:55 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead
