@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.40xd on Fri Dec 21 15:12:07 2012
+// Written by: Map P.58f on Wed Jun 05 14:15:27 2013
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -148,9 +148,10 @@ TIMEGRP pll_clk2x = BEL "pmt_sampled" BEL "pmt_synced" BEL "fifo_photon_din_0"
         "pll/dcm_sp_inst_pins<2>";
 TIMEGRP pll_clkfx = BEL "fifo_dds_rd_clk" BEL "line_triggering_conditioned"
         BEL "_i000209_0" BEL "_i000209_1" BEL "_i000209_2" BEL "_i000209_3"
-        BEL "_i000209_4" BEL "_i000053_0" BEL "_i000053_1" BEL "_i000053_2"
-        BEL "_i000053_3" BEL "_i000055_0" BEL "_i000055_1" BEL "_i000055_2"
-        BEL "_i000055_3" BEL "pll/clkout3_buf" BEL "clk_1";
+        BEL "_i000209_4" BEL "_i000209_5" BEL "_i000209_6" BEL "_i000209_7"
+        BEL "_i000053_0" BEL "_i000053_1" BEL "_i000053_2" BEL "_i000053_3"
+        BEL "_i000055_0" BEL "_i000055_1" BEL "_i000055_2" BEL "_i000055_3"
+        BEL "pll/clkout3_buf" BEL "clk_1";
 PIN
         fifo3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
         = BEL

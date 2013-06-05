@@ -1,5 +1,11 @@
 FPGA firmware for lattice:
 
+Updated: Jun 1, 2013
+
+Lattice now use differential bus pulser board. Local 729 pulser will be phased out. Use Pulser_2013_05_31.
+
+Pulser2 is still under testing but with less urgency.
+
 Updated: Apr 3, 2013
 
 DDS: First generation DDS. Has to be used with pulser breakout board with single-ended line to the DDS. Currently used in lattice.

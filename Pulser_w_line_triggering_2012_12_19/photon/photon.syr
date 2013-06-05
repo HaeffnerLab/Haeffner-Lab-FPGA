@@ -1,16 +1,16 @@
-Release 14.3 - xst P.40xd (nt)
+Release 14.5 - xst P.58f (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.35 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.37 secs
  
 --> Reading design: photon.prj
 
@@ -108,34 +108,34 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\readout_count_fifo.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\readout_count_fifo.vhd" into library work
 Parsing entity <readout_count_fifo>.
 Parsing architecture <readout_count_fifo_a> of entity <readout_count_fifo>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\pulse_fifo.vhd" into library work
-Parsing entity <pulse_fifo>.
-Parsing architecture <pulse_fifo_a> of entity <pulse_fifo>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\pulser_ram.vhd" into library work
-Parsing entity <pulser_ram>.
-Parsing architecture <pulser_ram_a> of entity <pulser_ram>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd" into library work
 Parsing entity <okHost>.
 Parsing architecture <archHost> of entity <okhost>.
 Parsing entity <okWireOR>.
 Parsing architecture <archWireOR> of entity <okwireor>.
 Parsing package <FRONTPANEL>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\normal_pmt_fifo.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\normal_pmt_fifo.vhd" into library work
 Parsing entity <normal_pmt_fifo>.
 Parsing architecture <normal_pmt_fifo_a> of entity <normal_pmt_fifo>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\fifo_photon.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\pulse_fifo.vhd" into library work
+Parsing entity <pulse_fifo>.
+Parsing architecture <pulse_fifo_a> of entity <pulse_fifo>.
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\pulser_ram.vhd" into library work
+Parsing entity <pulser_ram>.
+Parsing architecture <pulser_ram_a> of entity <pulser_ram>.
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\fifo_photon.vhd" into library work
 Parsing entity <fifo_photon>.
 Parsing architecture <fifo_photon_a> of entity <fifo_photon>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\clk_pll_100_in_200_out.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\clk_pll_100_in_200_out.vhd" into library work
 Parsing entity <clk_pll_100_in_200_out>.
 Parsing architecture <xilinx> of entity <clk_pll_100_in_200_out>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\dds_fifo.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\dds_fifo.vhd" into library work
 Parsing entity <dds_fifo>.
 Parsing architecture <dds_fifo_a> of entity <dds_fifo>.
-Parsing VHDL file "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" into library work
+Parsing VHDL file "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" into library work
 Parsing entity <photon>.
 Parsing architecture <arch> of entity <photon>.
 
@@ -152,43 +152,43 @@ Elaborating entity <clk_pll_100_in_200_out> (architecture <xilinx>) from library
 Elaborating entity <pulse_fifo> (architecture <pulse_fifo_a>) from library <work>.
 
 Elaborating entity <pulser_ram> (architecture <pulser_ram_a>) from library <work>.
-WARNING:HDLCompiler:1127 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 801: Assignment to line_triggering_enabled ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 801: Assignment to line_triggering_enabled ignored, since the identifier is never used
 
 Elaborating entity <fifo_photon> (architecture <fifo_photon_a>) from library <work>.
-WARNING:HDLCompiler:1127 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 889: Assignment to normal_pmt_block_aval ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 889: Assignment to normal_pmt_block_aval ignored, since the identifier is never used
 
 Elaborating entity <normal_pmt_fifo> (architecture <normal_pmt_fifo_a>) from library <work>.
 
 Elaborating entity <readout_count_fifo> (architecture <readout_count_fifo_a>) from library <work>.
-WARNING:HDLCompiler:92 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 1001: pmt_readout_count should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 1001: pmt_readout_count should be on the sensitivity list of the process
 
 Elaborating entity <okHost> (architecture <archHost>) from library <work>.
 
 Elaborating entity <okWireOR> (architecture <archWireOR>) with generics from library <work>.
-WARNING:HDLCompiler:634 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 280: Net <pulser_flag_register[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" Line 280: Net <pulser_flag_register[15]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <photon>.
-    Related source file is "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd".
+    Related source file is "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd".
 WARNING:Xst:647 - Input <logic_in<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 334: Output port <wr_data_count> of the instance <fifo4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 334: Output port <full> of the instance <fifo4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 407: Output port <rd_data_count> of the instance <fifo2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 407: Output port <full> of the instance <fifo2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 839: Output port <full> of the instance <fifo1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 839: Output port <empty> of the instance <fifo1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 893: Output port <full> of the instance <fifo3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 893: Output port <empty> of the instance <fifo3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 970: Output port <full> of the instance <fifo5> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 970: Output port <empty> of the instance <fifo5> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1039: Output port <ep_blockstrobe> of the instance <ep80> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1041: Output port <ep_blockstrobe> of the instance <ep81> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1044: Output port <ep_blockstrobe> of the instance <epA0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1047: Output port <ep_blockstrobe> of the instance <epA1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1050: Output port <ep_blockstrobe> of the instance <epA2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 334: Output port <wr_data_count> of the instance <fifo4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 334: Output port <full> of the instance <fifo4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 407: Output port <rd_data_count> of the instance <fifo2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 407: Output port <full> of the instance <fifo2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 839: Output port <full> of the instance <fifo1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 839: Output port <empty> of the instance <fifo1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 893: Output port <full> of the instance <fifo3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 893: Output port <empty> of the instance <fifo3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 970: Output port <full> of the instance <fifo5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 970: Output port <empty> of the instance <fifo5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1039: Output port <ep_blockstrobe> of the instance <ep80> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1041: Output port <ep_blockstrobe> of the instance <ep81> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1044: Output port <ep_blockstrobe> of the instance <epA0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1047: Output port <ep_blockstrobe> of the instance <epA1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.vhd" line 1050: Output port <ep_blockstrobe> of the instance <epA2> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Register <fifo_photon_wr_clk> equivalent to <pmt_synced> has been removed
     Found 1-bit register for signal <line_triggering_conditioned>.
@@ -206,7 +206,7 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     Found 32-bit register for signal <time_stamp>.
     Found 32-bit register for signal <master_logic>.
     Found 16-bit register for signal <seq_count>.
-    Found 31-bit register for signal <_v40>.
+    Found 31-bit register for signal <_v43>.
     Found 31-bit register for signal <pmt_count>.
     Found 31-bit register for signal <pmt_readout_count>.
     Found 2-bit register for signal <count>.
@@ -217,7 +217,7 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     Found 1-bit register for signal <pulser_ram_clka>.
     Found 10-bit register for signal <pulser_ram_addra>.
     Found 64-bit register for signal <pulser_ram_dina>.
-    Found 5-bit register for signal <_v33>.
+    Found 8-bit register for signal <_v33>.
     Found 1-bit register for signal <clk_1>.
     Found 1-bit register for signal <pulser_ram_clkb>.
     Found 64-bit register for signal <ram_data_out_2>.
@@ -230,9 +230,9 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     Found 1-bit register for signal <pmt_sampled>.
     Found 16-bit register for signal <ep21wire>.
     Found 1-bit register for signal <normal_pmt_auto_count_clk>.
-    Found 3-bit register for signal <_v52>.
+    Found 3-bit register for signal <_v55>.
     Found 1-bit register for signal <wr_en_var>.
-    Found 32-bit register for signal <_v56>.
+    Found 32-bit register for signal <_v59>.
     Found 1-bit register for signal <pmt_count_reset_var>.
     Found 1-bit register for signal <normal_pmt_wr_en>.
     Found 32-bit register for signal <normal_pmt_fifo_data>.
@@ -301,7 +301,7 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
     Found 10-bit adder for signal <write_ram_address[9]_GND_8_o_add_5_OUT> created at line 477.
-    Found 5-bit adder for signal <count[4]_GND_8_o_add_21_OUT> created at line 497.
+    Found 8-bit adder for signal <count[7]_GND_8_o_add_21_OUT> created at line 497.
     Found 4-bit adder for signal <delay_count[3]_GND_8_o_add_30_OUT> created at line 522.
     Found 4-bit adder for signal <duration_count[3]_GND_8_o_add_33_OUT> created at line 525.
     Found 16-bit adder for signal <delay_count[15]_GND_8_o_add_42_OUT> created at line 546.
@@ -320,8 +320,8 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     Found 16-bit 7-to-1 multiplexer for signal <GND_8_o_pulser_flag_register[15]_mux_195_OUT> created at line 814.
     Found 1-bit tristate buffer for signal <i2c_sda> created at line 855
     Found 1-bit tristate buffer for signal <i2c_scl> created at line 856
-    Found 5-bit comparator greater for signal <n0041> created at line 498
-    Found 5-bit comparator greater for signal <n0043> created at line 500
+    Found 8-bit comparator greater for signal <n0041> created at line 498
+    Found 8-bit comparator greater for signal <n0043> created at line 500
     Found 4-bit comparator greater for signal <delay_count[3]_GND_8_o_LessThan_30_o> created at line 521
     Found 4-bit comparator greater for signal <duration_count[3]_GND_8_o_LessThan_33_o> created at line 524
     Found 16-bit comparator greater for signal <delay_count[15]_ep06wire[15]_LessThan_42_o> created at line 545
@@ -333,7 +333,7 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
     Summary:
 	inferred   2 Multiplier(s).
 	inferred  15 Adder/Subtractor(s).
-	inferred 764 D-type flip-flop(s).
+	inferred 767 D-type flip-flop(s).
 	inferred  10 Comparator(s).
 	inferred  81 Multiplexer(s).
 	inferred   2 Tristate(s).
@@ -341,13 +341,13 @@ WARNING:Xst:653 - Signal <pulser_flag_register<15:1>> is used but never assigned
 Unit <photon> synthesized.
 
 Synthesizing Unit <clk_pll_100_in_200_out>.
-    Related source file is "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\clk_pll_100_in_200_out.vhd".
+    Related source file is "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\ipcore_dir\clk_pll_100_in_200_out.vhd".
     Summary:
 	no macro.
 Unit <clk_pll_100_in_200_out> synthesized.
 
 Synthesizing Unit <okHost>.
-    Related source file is "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd".
+    Related source file is "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd".
     Found 16-bit register for signal <hi_dataout_reg>.
     Found 16-bit register for signal <hi_datain>.
     Found 1-bit register for signal <hi_drive>.
@@ -373,7 +373,7 @@ Synthesizing Unit <okHost>.
 Unit <okHost> synthesized.
 
 Synthesizing Unit <okWireOR>.
-    Related source file is "\\psf\home\LabRad\lattice\FPGA_firmware\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd".
+    Related source file is "C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\okLibrary.vhd".
         N = 7
     Summary:
 	no macro.
@@ -394,7 +394,7 @@ Macro Statistics
  31-bit adder                                          : 3
  32-bit adder                                          : 1
  4-bit adder                                           : 3
- 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
 # Registers                                            : 82
  1-bit register                                        : 50
  10-bit register                                       : 4
@@ -404,15 +404,15 @@ Macro Statistics
  31-bit register                                       : 3
  32-bit register                                       : 9
  4-bit register                                        : 3
- 5-bit register                                        : 1
  64-bit register                                       : 3
+ 8-bit register                                        : 1
 # Comparators                                          : 10
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 2
  32-bit comparator equal                               : 2
  32-bit comparator greater                             : 1
  4-bit comparator greater                              : 2
- 5-bit comparator greater                              : 2
+ 8-bit comparator greater                              : 2
 # Multiplexers                                         : 81
  1-bit 2-to-1 multiplexer                              : 37
  10-bit 2-to-1 multiplexer                             : 12
@@ -572,13 +572,13 @@ Macro Statistics
  31-bit adder                                          : 1
  32-bit adder                                          : 1
  4-bit adder                                           : 1
- 5-bit adder                                           : 1
+ 8-bit adder                                           : 1
 # Counters                                             : 8
  10-bit up counter                                     : 1
  16-bit up counter                                     : 2
  31-bit up counter                                     : 2
  4-bit up counter                                      : 2
- 5-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
 # Registers                                            : 646
  Flip-Flops                                            : 646
 # Comparators                                          : 10
@@ -587,7 +587,7 @@ Macro Statistics
  32-bit comparator equal                               : 2
  32-bit comparator greater                             : 1
  4-bit comparator greater                              : 2
- 5-bit comparator greater                              : 2
+ 8-bit comparator greater                              : 2
 # Multiplexers                                         : 112
  1-bit 2-to-1 multiplexer                              : 69
  10-bit 2-to-1 multiplexer                             : 12
@@ -840,8 +840,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 725
- Flip-Flops                                            : 725
+# Registers                                            : 728
+ Flip-Flops                                            : 728
 
 =========================================================================
 
@@ -864,28 +864,28 @@ Top Level Output File Name         : photon.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3238
+# BELS                             : 3259
 #      GND                         : 19
 #      INV                         : 75
-#      LUT1                        : 236
-#      LUT2                        : 472
+#      LUT1                        : 243
+#      LUT2                        : 471
 #      LUT3                        : 208
-#      LUT4                        : 346
-#      LUT5                        : 228
-#      LUT6                        : 726
+#      LUT4                        : 345
+#      LUT5                        : 225
+#      LUT6                        : 730
 #      LUT6_2                      : 50
-#      MUXCY                       : 510
+#      MUXCY                       : 517
 #      MUXF7                       : 11
 #      VCC                         : 8
-#      XORCY                       : 349
-# FlipFlops/Latches                : 2548
+#      XORCY                       : 357
+# FlipFlops/Latches                : 2551
 #      FD                          : 218
 #      FDC                         : 760
 #      FDCE                        : 494
 #      FDE                         : 406
 #      FDP                         : 125
 #      FDPE                        : 24
-#      FDR                         : 67
+#      FDR                         : 70
 #      FDRE                        : 414
 #      FDS                         : 5
 #      FDSE                        : 2
@@ -922,18 +922,18 @@ Selected Device : 6slx45fgg484-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            2547  out of  54576     4%  
- Number of Slice LUTs:                 2386  out of  27288     8%  
-    Number used as Logic:              2341  out of  27288     8%  
+ Number of Slice Registers:            2550  out of  54576     4%  
+ Number of Slice LUTs:                 2392  out of  27288     8%  
+    Number used as Logic:              2347  out of  27288     8%  
     Number used as Memory:               45  out of   6408     0%  
        Number used as RAM:               44
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3740
-   Number with an unused Flip Flop:    1193  out of   3740    31%  
-   Number with an unused LUT:          1354  out of   3740    36%  
-   Number of fully used LUT-FF pairs:  1193  out of   3740    31%  
+ Number of LUT Flip Flop pairs used:   3746
+   Number with an unused Flip Flop:    1196  out of   3746    31%  
+   Number with an unused LUT:          1354  out of   3746    36%  
+   Number of fully used LUT-FF pairs:  1196  out of   3746    31%  
    Number of unique control sets:       258
 
 IO Utilization: 
@@ -944,7 +944,7 @@ IO Utilization:
 Specific Feature Utilization:
  Number of Block RAM/FIFO:               73  out of    116    62%  
     Number using Block RAM only:         73
- Number of BUFG/BUFGCTRLs:                8  out of     16    50%  
+ Number of BUFG/BUFGCTRL/BUFHCEs:         8  out of     16    50%  
  Number of DSP48A1s:                      2  out of     58     3%  
 
 ---------------------------
@@ -969,7 +969,7 @@ Clock Information:
 Clock Signal                                                                                                 | Clock buffer(FF name)                                                                                                            | Load  |
 -------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-------+
 clk1                                                                                                         | DCM_SP:CLK2X                                                                                                                     | 34    |
-clk1                                                                                                         | DCM_SP:CLKFX                                                                                                                     | 16    |
+clk1                                                                                                         | DCM_SP:CLKFX                                                                                                                     | 19    |
 clk1                                                                                                         | DCM_SP:CLK0                                                                                                                      | 691   |
 hi_in<0>                                                                                                     | DCM_SP:CLK0                                                                                                                      | 1383  |
 clk_1                                                                                                        | BUFG                                                                                                                             | 81    |
@@ -1011,7 +1011,7 @@ readout_should_count_pmt_readout_count[3]_AND_653_o(readout_should_count_pmt_rea
 readout_should_count_pmt_readout_count[2]_AND_655_o(readout_should_count_pmt_readout_count[2]_AND_655_o1:O)  | NONE(*)(pmt_readout_count_var_2_LDC)                                                                                             | 1     |
 readout_should_count_pmt_readout_count[0]_AND_659_o(readout_should_count_pmt_readout_count[0]_AND_659_o1:O)  | NONE(*)(pmt_readout_count_var_0_LDC)                                                                                             | 1     |
 master_logic_20                                                                                              | NONE(count_1_LD)                                                                                                                 | 1     |
-normal_pmt_count_trigger_inv(normal_pmt_count_trigger_inv1:O)                                                | NONE(*)(_i000238_1_LD)                                                                                                           | 1     |
+normal_pmt_count_trigger_inv(normal_pmt_count_trigger_inv11:O)                                               | NONE(*)(_i000238_1_LD)                                                                                                           | 1     |
 -------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+-------+
 (*) These 32 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -1038,7 +1038,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk1'
   Clock period: 7.465ns (frequency: 133.961MHz)
-  Total number of paths / destination ports: 218088 / 1325
+  Total number of paths / destination ports: 218158 / 1331
 -------------------------------------------------------------------------
 Delay:               7.465ns (Levels of Logic = 33)
   Source:            time_count_0 (FF)
@@ -1126,18 +1126,18 @@ Timing constraint: Default period analysis for Clock 'clk_1'
   Total number of paths / destination ports: 1582 / 98
 -------------------------------------------------------------------------
 Delay:               6.269ns (Levels of Logic = 3)
-  Source:            duration_count_9 (FF)
+  Source:            duration_count_6 (FF)
   Destination:       duration_count_0 (FF)
   Source Clock:      clk_1 rising
   Destination Clock: clk_1 rising
 
-  Data Path: duration_count_9 to duration_count_0
+  Data Path: duration_count_6 to duration_count_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.525   1.181  duration_count_9 (duration_count_9)
-     LUT6:I0->O            1   0.254   1.137  line_triggering_pulse_PWR_8_o_MUX_160_o21 (line_triggering_pulse_PWR_8_o_MUX_160_o2)
-     LUT6:I0->O            2   0.254   1.181  line_triggering_pulse_PWR_8_o_MUX_160_o23 (line_triggering_pulse_PWR_8_o_MUX_160_o)
+     FDCE:C->Q             2   0.525   1.181  duration_count_6 (duration_count_6)
+     LUT6:I0->O            1   0.254   1.137  line_triggering_pulse_PWR_8_o_MUX_166_o22 (line_triggering_pulse_PWR_8_o_MUX_166_o21)
+     LUT6:I0->O            2   0.254   1.181  line_triggering_pulse_PWR_8_o_MUX_166_o23 (line_triggering_pulse_PWR_8_o_MUX_166_o)
      LUT6:I0->O           16   0.254   1.181  _n0879_inv1 (_n0879_inv)
      FDCE:CE                   0.302          duration_count_0
     ----------------------------------------
@@ -1423,7 +1423,7 @@ clk_1                                               |    6.621|         |       
 fifo_pulser_rd_clk                                  |    1.639|         |         |         |
 hi_in<0>                                            |    8.831|         |         |         |
 master_logic_20                                     |         |    4.482|         |         |
-normal_pmt_count_trigger_inv                        |         |    4.333|         |         |
+normal_pmt_count_trigger_inv                        |         |    4.299|         |         |
 pmt_synced                                          |    2.729|         |         |         |
 pulser_ram_clkb                                     |    3.608|         |         |         |
 readout_should_count_pmt_readout_count[0]_AND_659_o |         |    2.065|         |         |
@@ -1819,12 +1819,12 @@ pmt_synced     |         |         |    2.729|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 24.98 secs
+Total REAL time to Xst completion: 46.00 secs
+Total CPU time to Xst completion: 45.86 secs
  
 --> 
 
-Total memory usage is 218476 kilobytes
+Total memory usage is 321524 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   97 (   0 filtered)

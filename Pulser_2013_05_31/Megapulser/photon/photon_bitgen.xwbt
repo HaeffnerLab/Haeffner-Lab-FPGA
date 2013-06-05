@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon\photon.ncd
-OUTFILE=Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon\photon.bit
-FAMILY=Spartan6
-PART=xc6slx45-2fgg484
-WORKINGDIR=Z:\Documents\Electronics\FPGA_FIRMWARE\Grand unified pulser\Megapulser\photon
-LICENSE=WebPack
-USER_INFO=206763184_0_0_154
