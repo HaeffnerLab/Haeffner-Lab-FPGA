@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/lattice/Documents/FPGA/Pulser_2013_05_31/Megapulser/photon/ipcore_dir/sec_normal_pmt_fifo.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/lattice/Documents/FPGA/Pulser_2013_06_05/Megapulser/photon/ipcore_dir/sec_normal_pmt_fifo.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
