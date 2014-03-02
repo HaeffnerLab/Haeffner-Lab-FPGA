@@ -1,0 +1,16 @@
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon\photon.ngc 1374191239
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/dds_fifo.ngc 1357514668
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okWireIn.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okTriggerIn.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okWireOut.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okBTPipeIn.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okBTPipeOut.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/pulse_fifo.ngc 1357514676
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/fifo_photon.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/normal_pmt_fifo.ngc 1357514669
+ipcore_dir/sec_normal_pmt_fifo.ngc 1357514678
+ipcore_dir/readout_count_fifo.ngc 1357514678
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/pulser_ram.ngc 1357514676
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/okCoreHarness.ngc 1357514669
+C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon/TFIFO64x8a_64x8b.ngc 1357514676
+OK

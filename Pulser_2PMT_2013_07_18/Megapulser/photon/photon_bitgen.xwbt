@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon\photon.ncd
+OUTFILE=C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon\photon.bit
+FAMILY=Spartan6
+PART=xc6slx45-2fgg484
+WORKINGDIR=C:\Users\lattice\Documents\FPGA\Pulser_2PMT_2013_07_18\Megapulser\photon
+LICENSE=WebPack
+USER_INFO=206763184_0_0_219

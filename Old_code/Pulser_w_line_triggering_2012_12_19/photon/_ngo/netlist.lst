@@ -1,0 +1,15 @@
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon\photon.ngc 1370466797
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/dds_fifo.ngc 1364939796
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okWireIn.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okTriggerIn.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okWireOut.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okBTPipeIn.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okBTPipeOut.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/pulse_fifo.ngc 1364939800
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/fifo_photon.ngc 1364939796
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/normal_pmt_fifo.ngc 1364939799
+ipcore_dir/readout_count_fifo.ngc 1364939798
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/pulser_ram.ngc 1364939800
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/okCoreHarness.ngc 1364939799
+C:\Users\lattice\Documents\FPGA\Pulser_w_line_triggering_2012_12_19\photon/TFIFO64x8a_64x8b.ngc 1364939796
+OK

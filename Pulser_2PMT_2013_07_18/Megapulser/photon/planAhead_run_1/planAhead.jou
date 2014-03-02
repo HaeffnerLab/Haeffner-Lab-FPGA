@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 31 20:40:55 2013
+# Process ID: 3020
+# Log file: C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/lattice/Desktop/Grand unified pulser/Megapulser/photon/pa.fromNetlist.tcl}
