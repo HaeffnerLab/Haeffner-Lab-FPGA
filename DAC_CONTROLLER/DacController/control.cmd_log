@@ -1,0 +1,221 @@
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 
+xst -intstyle ise -ifn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.xst" -ofn "Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p xc6slx16-ftg256-2 control.ngc control.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o control_map.ncd control.ngd control.pcf 
+par -w -intstyle ise -ol high -mt off control_map.ncd control.ncd control.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml control.twx control.ncd -o control.twr control.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f control.ut control.ncd 

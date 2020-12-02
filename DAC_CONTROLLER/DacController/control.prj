@@ -1,0 +1,3 @@
+vhdl work "okLibrary.vhd"
+verilog work "ipcore_dir/fifo.v"
+vhdl work "control.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController\control.ncd
+OUTFILE=Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController\control.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController
+LICENSE=WebPack
+USER_INFO=206763184_0_0_154

@@ -1,0 +1,59 @@
+Release 14.1 ngdbuild P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.1\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints.ucf -p
+xc6slx16-ftg256-2 control.ngc control.ngd
+
+Reading NGO file
+"Z:/Documents/Electronics/FPGA_FIRMWARE/DAC_CONTROLLER/DacController/control.ngc
+" ...
+Loading design module
+"Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController/okTriggerIn
+.ngc"...
+Loading design module
+"Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController/okBTPipeIn.
+ngc"...
+Loading design module "ipcore_dir/fifo.ngc"...
+Loading design module
+"Z:\Documents\Electronics\FPGA_FIRMWARE\DAC_CONTROLLER\DacController/okCore.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "constraints.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'okHostClk', used in period specification
+   'TS_okHostClk', was traced into DCM_SP instance okHI/hi_dcm. The following
+   new TNM groups and period specifications were generated at the DCM_SP
+   output(s): 
+   CLK0: <TIMESPEC TS_okHI_dcm_clk0 = PERIOD "okHI_dcm_clk0" TS_okHostClk HIGH
+   50%>
+
+Done...
+
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   okHI/hi_dcm to 20.830000 ns based on the period specification (<TIMESPEC
+   "TS_okHostClk" = PERIOD "okHostClk" 20.83 ns HIGH 50%;>
+   [constraints.ucf(60)]).
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 96320 kilobytes
+
+Writing NGD file "control.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "control.bld"...
